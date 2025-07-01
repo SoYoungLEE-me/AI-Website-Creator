@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <h2>Sign Up</h2>
+
+    <form action="/register" method="post">
+      <fieldset>
+        <legend>Basic Information</legend>
+
+        <label for="username">Username:</label><br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+        /><br /><br />
+
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@email.com"
+        /><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Information</legend>
+
+        <label for="birth">Date of Birth:</label><br />
+        <input type="date" id="birth" name="birth" /><br /><br />
+
+        <label>Gender:</label><br />
+        <input type="radio" name="gender" value="male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female" />
+        <label for="female">Female</label><br /><br />
+
+        <label for="region">Region:</label><br />
+        <select id="region" name="region">
+          <option value="">-- Please select --</option>
+          <option value="Seoul">Seoul</option>
+          <option value="Gyeonggi">Gyeonggi</option>
+          <option value="Busan">Busan</option></select
+        ><br /><br />
+
+        <label for="bio">Self-Introduction:</label><br />
+        <textarea
+          id="bio"
+          name="bio"
+          rows="4"
+          cols="40"
+          placeholder="Feel free to write anything :)"
+        ></textarea
+        ><br /><br />
+      </fieldset>
+
+      <button type="submit">Sign Up</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
