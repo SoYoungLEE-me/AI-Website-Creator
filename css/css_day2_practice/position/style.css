@@ -1,0 +1,33 @@
+/*Styling for each task section*/
+.border {
+  border: solid black 2px;
+  height: 300px;
+  position: relative;
+}
+
+.border-top {
+  margin-top: 20px;
+}
+
+/*Box Style*/
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: solid black 1px;
+}
+
+.box1 {
+  background-color: skyblue;
+}
+
+.box2 {
+  background-color: greenyellow;
+}
+
+.box-big {
+  border: solid black 1px;
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
