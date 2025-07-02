@@ -1,0 +1,39 @@
+/*Styling for each task section*/
+.border {
+  border: solid black 2px;
+  height: 300px;
+  position: relative;
+}
+
+.border-top {
+  margin-top: 20px;
+}
+
+/*Common Box Style*/
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: solid black 1px;
+  background-color: skyblue;
+}
+
+.box1 {
+  background-color: skyblue;
+}
+
+.box2 {
+  background-color: red;
+}
+
+.box3 {
+  background-color: green;
+}
+
+/*task 1*/
+
+/*task 2*/
+
+/*task 3*/
+
+/*task 4*/
