@@ -1,0 +1,68 @@
+/*Styling for each task section*/
+.border {
+  border: solid black 2px;
+  height: 300px;
+  position: relative;
+}
+
+.border-top {
+  margin-top: 20px;
+}
+
+/*Common Box Style*/
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: solid black 1px;
+}
+
+.box1 {
+  background-color: skyblue;
+}
+
+.box2 {
+  background-color: red;
+}
+
+.box3 {
+  background-color: green;
+}
+
+/*task 1*/
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+/*task 2*/
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/*task 3*/
+.container3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-container {
+  display: flex;
+}
+
+/*task 4*/
+.container4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-center {
+  align-self: center;
+}
+
+.box-end {
+  align-self: flex-end;
+}
