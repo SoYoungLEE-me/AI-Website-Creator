@@ -1,38 +1,39 @@
-/*Styling for each task section*/
-.border {
-  border: solid black 2px;
-  height: 300px;
-  position: relative;
+body {
+  background-color: #f5f5f5;
+  padding: 50px;
 }
 
-.border-top {
-  margin-top: 20px;
-}
-
-/*Box Style*/
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: skyblue;
-  border: solid black 1px;
-}
-
-.box1 {
-  background-color: skyblue;
-}
-
-.box2 {
-  background-color: greenyellow;
-}
-
-.box-big {
-  border: solid black 1px;
-  width: 200px;
-  height: 200px;
+.outer-box {
+  width: 400px;
+  height: 400px;
   background-color: pink;
+  position: relative;
+  margin: auto;
+  border: 2px solid black;
 }
 
-/*task 1*/
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: skyblue;
+  border: 1px solid black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.top-left {
+}
 
-/*task 2*/
+.top-right {
+}
+
+.bottom-left {
+}
+
+.bottom-right {
+}
+
+.center {
+}
